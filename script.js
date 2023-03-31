@@ -10,11 +10,11 @@ function myPromise(age,name){
     return new Promise((resolve,reject)=>{
         setTimeout(()=>{
             if(age>=18)
-          { console.log("sussecc");
+          { 
               resolve(`Welcome, ${name}. You can vote`);}
             else
            {
-            console.log("err");
+            
              reject(`Oh sorry ${name}. You aren't old enough.`);}
         },4000);
        
